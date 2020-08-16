@@ -1,0 +1,54 @@
+@import '../../components/category-list/category-list.scss';
+
+* {
+  padding: 0;
+}
+
+.search {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  width: 330px;
+  justify-content: space-between;
+}
+
+.categories-list {
+  display: block;
+  width: auto;
+  height: 34px;
+  border: 1px solid #219fec;
+  border-radius: 5px;
+  padding-left: 5px;
+  color: #219fec;
+  cursor: pointer;
+}
+
+.categories-list__item {
+  color: #696969;
+}
+
+.list-goods-collection {
+  padding: 20px;
+}
+
+.title-goods-collection {
+  color: #696969;
+  font-size: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.title-goods-collection p {
+    min-width: 70px;
+    text-align: center;
+    width: 100%;
+}
+
+
+
+
+#dnt{
+  display: none;
+}

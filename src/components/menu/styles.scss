@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+#slide-out {
+  padding-top: 55px;
+  top: 73px;
+}
+
+.admin-item:hover {
+  background: linear-gradient(180deg,
+      rgb(212, 220, 228),
+      rgb(198, 212, 228),
+      rgb(185, 207, 226));
+}
+
+
+#admin-page-btn-back:hover {
+  background-color: #dddddd;
+}
+
+#admin-page-btn-back {
+  width: 45px;
+  position: absolute;
+  height: 45px;
+  color: #31456a;
+  z-index: 9;
+  top: 10px;
+  border-radius: 50%;
+  background-image: url(../../assets/img/back2.svg);
+  background-position: center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+.admin-item{
+  
+  cursor: pointer;
+}
+.admin-menu-icon {
+  display: block;
+  position: absolute;
+  font-size: 18px;
+  top:16%;
+  left: 4%;
+}
+
+.admin-page-active{
+  background-color: #8396ff;
+}
+.admin-page-active:hover {
+  background:  #8396ff;
+}
+
+#admin-page-link {
+  padding-left: 20%;
+  padding-right: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 16px;
+  display: block;
+  font-weight: 500;
+  height: 100%;
+  position: relative;
+  color: #31456a;
+  text-decoration: none;
+}
+
+.admin-list li>a>i.material-icons {
+  color: #31456a;
+}

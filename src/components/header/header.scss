@@ -1,0 +1,96 @@
+.header {
+    background-color: #49444a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+}
+
+.burger-menu {
+    display: inline-block;
+    background-color: #49444a;
+    box-shadow: none;
+    height: 70px;
+}
+
+.burger-link {
+    height: 56px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 0;
+    line-height: 56px;
+}
+.burger-link:hover{
+text-decoration: none;
+}
+
+.user {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 26px;
+    border: none;
+    border-left: 1px solid rgba(0, 0, 0, 0.15);
+    background-color: #49444a;
+    cursor: pointer;
+}
+
+
+.title {
+    display: block;
+    font-size: 24px;
+    cursor: pointer;
+    color: white;
+    background-color: #49444a;
+    padding-left: 20px;
+    height: 100%;
+}
+
+.title::before {
+    content: '▶';
+    font-size: 20px;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    color: white;
+    margin-right: 12px;
+}
+
+.menu-header {
+    height: 70px;
+}
+
+.open .title::before {
+    content: '▼';
+}
+
+.menu-header.open ul {
+    display: block;
+    z-index: 10;
+}
+
+.items-header {
+    margin: 0;
+    list-style: none;
+    display: none;
+    padding: 0;
+    position: absolute;
+    background-color: #49444a;
+    width: 200px;
+    height: 56px;
+}
+
+.items-header li {
+    width: 50%;
+}
+
+.users-data {
+    display: flex;
+    height: 70px;
+}
+
+.open {
+    position: relative;
+    height: 70px;
+}
